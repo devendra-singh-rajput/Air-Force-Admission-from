@@ -213,7 +213,7 @@ margin: 50px;
     width: 100px;
     margin-left: -210px;
     
-    margin-top: -60px;
+    margin-bottom: 30px;
 }
 .c{
     margin-left: 230px;
@@ -304,7 +304,7 @@ h3{
     z-index: 99;
 }
 #logbtn2{
-    float: inline-end;
+    /* float: inline-end; */
     background-color: rgb(46, 95, 255);
     padding: 3px 30px;
     color: white;
@@ -313,6 +313,7 @@ h3{
     margin: 20px;
     height: 25px;
     width: 100px;
+    margin-left: 30px;
 }
 #logbtn1{
     background-color: rgb(161, 160, 160);
@@ -331,10 +332,22 @@ h3{
     border: none;
     margin-bottom: 30px;
     height: 30px;
-    width: 250px;
+    width: 200px;
     margin-top: 10px;
 
 }
+#Forget{
+    padding: 1px 5px;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    border: none;
+    /* margin-bottom: 30px; */
+    height: 30px;
+    width: 150px;
+    /* margin-top: -10px; */
+
+}
+
 .d2{
     margin-left: 116px;
 }

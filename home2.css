@@ -400,7 +400,17 @@ h3 {
     margin-top: 10px;
 
 }
+#Forget{
+    padding: 3px 30px;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
 
+}
 .d2 {
     margin-left: 116px;
 }
