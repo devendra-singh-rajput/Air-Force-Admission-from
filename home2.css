@@ -1,0 +1,431 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* position: relative; */
+    height: 120%;
+    padding-bottom: 100px;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.logo {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 0px;
+    position: fixed;
+    margin-top: -150px;
+    background-image: linear-gradient(#033747, #012733);
+}
+
+nav .logo p {
+
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+nav h5 {
+    font-size: 20px;
+
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 30px;
+
+
+}
+
+nav #a {
+    display: list-item;
+    width: 10px;
+    height: 100px;
+    padding: 20px, 15px;
+    margin: 20, 15px;
+    float: inline-start;
+    margin-left: 20px;
+}
+
+.posnol_deteal {
+
+    background-color: rgba(0, 1, 1, 0.833);
+
+}
+
+.container {
+    margin-left: 210px;
+    margin-top: 150px;
+    position: static;
+    padding: 20px;
+    background-color: rgb(203, 200, 199);
+    border: 2px rgb(193, 188, 188) solid;
+    height: 70%;
+    width: 82%;
+    border-radius: 5px;
+    margin-bottom: -70px;
+    box-shadow: 10px 10px 10px #4a4b4b;
+}
+
+hr {
+    margin: 10px;
+}
+
+.sidebar {
+    background-color: #033747;
+    width: 180px;
+    float: left;
+    padding: auto;
+    height: 100%;
+    position: fixed;
+    margin-top: -75px;
+}
+
+i {
+    margin: 7px;
+}
+
+.sidebar li {
+    color: white;
+    margin-left: 10px;
+    list-style: none;
+    font-size: 15px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgb(121, 114, 114);
+}
+
+.sidebar:hover {
+    background-color: #012733;
+}
+
+.page-hader {
+    margin-right: 975px;
+    float: inline-end;
+    margin-top: -50px;
+}
+
+#save {
+    float: inline-end;
+    background-color: rgb(49, 205, 49);
+    padding: 3px 30px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    /* margin-right: -10px; */
+}
+
+#reset {
+    background-color: rgb(244, 54, 54);
+    border-radius: 2px;
+    padding: 3px 30px;
+    color: white;
+    border: none;
+}
+
+.container>h5 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.d {
+    padding: 50px 50px;
+
+    /* justify-content: space-between; */
+}
+
+.a {
+    margin-left: 20px;
+}
+
+.g {
+    margin: 25px 0px;
+}
+
+#edu {
+    width: 400px;
+    padding: 5px;
+    /* border-radius: 4px; */
+}
+
+.table {
+    padding: 5px 10x;
+    border: 1px solid black;
+
+}
+
+tr {
+    border: 2px solid black;
+}
+
+th {
+    padding: 2px 5px;
+}
+
+.cen {
+    text-align: center;
+    padding: 10px;
+}
+
+.b {
+    margin-left: 40px;
+
+}
+
+.b3 {
+    margin-left: 56px;
+}
+
+.b4 {
+    margin-left: 102px;
+    margin-right: 50px;
+}
+
+.b6 {
+    margin-left: 40px;
+}
+
+.b9 {
+    margin-left: 39px;
+}
+
+.b11 {
+    margin-left: 8px;
+}
+
+.b8 {
+    margin-left: 27px;
+}
+
+#s {
+    margin: 50px;
+}
+
+#s1 {
+    margin-left: 138px;
+}
+
+#i1 {
+    margin-left: 150px;
+    background-color: rgb(0, 102, 255);
+}
+
+#i2 {
+    background-color: rgb(0, 102, 255);
+    margin-left: 112px;
+}
+
+#m {
+    height: 30px;
+    text-align: center;
+    width: 170px;
+}
+
+#aria {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+.sign {
+    height: 150px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 200px;
+    z-index: 100;
+}
+
+#img {
+    height: 150px;
+    width: 100px;
+    margin-left: -210px;
+
+    margin-top: -50px;
+}
+
+.c {
+    margin-left: 230px;
+}
+
+.c3 {
+    margin-left: -40px;
+}
+
+.d {
+    height: 30px;
+    text-align: center;
+    width: 170px;
+    margin-left: 100px;
+}
+
+.login-head {
+    /* z-index: 9999;
+    position: fixed; */
+    background-image: linear-gradient(rgb(164, 225, 255), white);
+    width: 100%;
+    height: auto;
+}
+
+#im {
+    margin-left: 20%;
+    width: 10%;
+}
+
+#tb {
+    margin-left: 25%;
+}
+
+/* #nd2{
+    margin-left: 10%;
+} */
+#ag {
+    margin-left: 10%;
+    text-align: end;
+}
+
+.l {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#image {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.slider {
+    margin-top: 35px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* Adjust image positioning within the slide */
+}
+
+footer {
+    background-image: linear-gradient(white, rgb(164, 225, 255));
+    width: 100%;
+    height: 70px;
+}
+
+.login-from {
+    
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-color: 2px solid black;
+    width: 450px;
+    z-index: 100;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px #4a4b4b;
+
+}
+
+.login-container {
+    margin: 10px;
+}
+
+h3 {
+    margin: 5px;
+    margin-left: 5px;
+}
+
+#logbtn2 {
+    float: inline-end;
+    background-color: rgb(46, 95, 255);
+    padding: 3px 30px;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    margin: -15px 40% 10px 0;
+    height: 25px;
+    width: 100px;
+
+}
+
+#logbtn1 {
+    background-color: rgb(161, 160, 160);
+    padding: 3px 30px;
+    color: rgb(13, 13, 13);
+    border-radius: 2px;
+    border: none;
+    margin: 20px;
+    height: 25px;
+    width: 100px;
+}
+
+#logbtn {
+    padding: 3px 30px;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+
+}
+
+.d2 {
+    margin-left: 116px;
+}
+
+.d4 {
+    margin-left: 101px;
+    margin-right: 50px;
+}
+
+.d6 {
+    margin-left: 84px;
+}
+
+.d8 {
+    margin-left: 105px;
+}
+
+.d7 {
+    margin-left: 6px;
+}
+
+.d1 {
+    margin-left: 30px;
+}
+
+.d3 {
+    margin-left: 35px;
+}

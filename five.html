@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indian air force</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <span id="a"> <img src="image/iaf.png" alt="logo"></span>
+            <p>agniveer</p>
+            <h5> INTAKE 2025 </h5>
+        </div>
+
+    </nav>
+    <span class="page-hader"><h3>photo
+        and signature 
+    </h3></span>
+    <div class="sidebar">
+        
+        <ul>
+            <a href="home.html"><li><i class="fa-solid fa-circle-user"></i> personal details</li></a>
+            <a href="secound.html"><li><i class="fa-solid fa-book-open-reader"></i>Qualification details</li></a>
+            <a href="third.html"><li><i class="fa-regular fa-address-card"></i>communication details</li></a>
+           <a href="four.html"><li><i class="fa-solid fa-folder-plus"></i>Addistional details</li></a>
+          <a href="five.html"><li> <i class="fa-solid fa-file-contract"></i>photo and signature</li></a>
+            <li> <i class="fa-solid fa-city"></i>city selection</li>
+            <li> <i class="fa-solid fa-building-circle-arrow-right"></i>ASC selection</li>
+        </ul>
+
+    </div>
+    <div>
+    
+        
+        <div class="container">
+            <div> upload photo and signature</div>
+            <hr>
+            <p>Note: <br>
+
+                1. Photograph must be in .jpg/jpeg format <br>
+                
+                2. Image size should be between 10KB to 50KB. <br>
+                
+                3. While uploading Photo/Signature/Thumb image, file nomenclature should be as follows: <br>
+                
+                Passport photograph: <b>Passport_Photograph</b> <br>
+                
+                Scanned signature image:  <b>Signature</b> <br>
+                
+                Left hand thumb impression image: <b>Thumb_Impression</b></p><br><hr> 
+
+                <span > <input class="sign" type="file" name="" ></span> <span><img id="img" src="image/thumb.jpg" alt=""></span>             
+                <span > <input class="sign" type="file" name="" > </span><span><img id="img" src="image/Passport_Photograph.jpeg" alt=""></span>
+                <span > <input class="sign" type="file" name="" > </span><span> <img id="img" src="image/download.png" alt=""></span>
+           
+            </div>
+            <div class="container">
+                <span ><input type="reset"id="reset" value="reset"> </span>
+                <span ><input type="button"id ="save" value="save and continue"> </span>
+            </form> </div>
+            <script src="script.js"></script>
+            <script>
+               this.save.addEventListener('click', function (event) {
+                window.location.href = 'four.html'; });
+         </script>
+ 
+</body>
+
+</html>
